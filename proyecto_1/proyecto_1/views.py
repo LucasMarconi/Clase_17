@@ -11,6 +11,10 @@ from django.template import Template, Context
 
 def probando_plantilla(request):
 
+    nombre = "Adrian"
+    apellido = "Holovaty"
+    diccionario = {"nombre": nombre, "apellido": apellido}
+    
     # Abrimos el archivo html
     mi_html = open('./proyecto_1/plantilla.html')
 
