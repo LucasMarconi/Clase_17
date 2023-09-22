@@ -29,7 +29,7 @@ def probando_plantilla(request):
     # Cerramos el archivo previamente abierto, ya que lo tenemos cargado en la variable plantilla
     mi_html.close()
 
-    # Contexto para invocar a las variables dentro del template
+    # Contexto para invocar las variables dentro del template
     mi_contexto = Context(dicc)
 
     # Terminamos de construír el template renderizándolo con su contexto
